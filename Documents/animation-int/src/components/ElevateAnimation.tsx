@@ -9,12 +9,18 @@ const ElevateAnimation = () => {
     };
 
     return (
-        <div className={styles.animationContainer}>
-            <div key={key} className={styles.shapeWrapper}>
-                <div className={styles.star}></div>
-                <div className={styles.funnel}></div>
-                <h1 className={styles.elevateText}>E L E V A T E</h1>
-            </div>
+        <div key={key} className={styles.logoContainer}>
+            <div className={styles.wing}></div>
+            <div className={styles.elevateWing}></div>
+            <h1 className={styles.logoText}>
+                <span>E</span>
+                <span>L</span>
+                <span>E</span>
+                <span>V</span>
+                <span>A</span>
+                <span>T</span>
+                <span>E</span>
+            </h1>
             <button
                 onClick={retriggerAnimation}
                 style={{
