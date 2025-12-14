@@ -21,14 +21,18 @@ The entire component and its assets are synchronously loaded on initial page loa
 The animation uses a unique key={index} prop on the wrapper. Updating the key in state forces React to destroy and remount the component, which in turn triggers the CSS animation: ... forwards rule again, meeting the requirement to re-trigger via CSS/React state, not imperative JavaScript DOM manipulation.
 
 # Knowledge gained after this project
-In depth knowledge gaining of clip-path and keyframes.
+In depth knowledge gaining of -webkit-mask and keyframes.
 Cut edge shaping of each object (Still learning).
 Great challenge to us.
 
 Installation and Running
 # Clone the repository
 git clone https://github.com/Esha1712/elevate
-cd elevate-animation
+cd Documents/
+ls
+cd animation-int/
+ls
+code .
 
 # Install dependencies
 npm install
